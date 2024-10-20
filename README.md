@@ -1,4 +1,4 @@
-![Logo1 3](https://github.com/user-attachments/assets/c9721f24-ba26-4d3e-b629-df7cdb3303aa)
+![Log_small](https://github.com/user-attachments/assets/ceae0eb7-b841-4725-a585-330249e06e26)
 
 Welcome to the GitHub repository for The Antibody Academy!
 
