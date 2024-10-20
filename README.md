@@ -1,4 +1,5 @@
-The Antibody Academy
+The Antibody Academy![MoneyInTheBankRickAndMortyGIF](https://github.com/user-attachments/assets/51782d3f-e113-469e-9b68-df72a92489bc)
+
 
 Welcome to the GitHub repository for The Antibody Academy!
 
