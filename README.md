@@ -1,3 +1,5 @@
+![Logo1 3_smaller](https://github.com/user-attachments/assets/a7362224-1c2c-410b-953e-559dd524cce7)
+
 Welcome to the GitHub repository for The Antibody Academy!
 
 This initiative aims to improve antibody discovery, development, and engineering. Specifically tailored to the unique challenges of immunogenetics and antibody immune receptor repertoire analysis. Our work primarily focuses on building pipelines and bioinformatics platforms to advance the study and practical application of antibodies.
