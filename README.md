@@ -1,4 +1,4 @@
-- 👋 Aloha, I’m @Bhaun808, the creator of The Antibody Academy.
+👋 Aloha, I’m @Bhaun808, the creator of The Antibody Academy.
   Welcome to this repository!
 
 The Antibody Academy:
