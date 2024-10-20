@@ -1,19 +1,47 @@
-👋 Aloha, I’m @Bhaun808, the creator of The Antibody Academy.
-  
-Welcome to the GitHub repository for The Antibody Academy!
+CDR3 Sequence Analysis Pipeline
+This repository contains a Python script for analyzing CDR3 amino acid sequences, including:
 
-The Antibody Academy:
+Distance Matrix Calculation: Computes pairwise Levenshtein distances between sequences to assess their similarities.
+Clustering: Uses hierarchical clustering to explore relationships among sequences.
+Pearson Correlation Analysis: Evaluates co-variation between sequences.
+Heatmap Visualization: Provides a clustered heatmap to visualize sequence similarities and correlations.
+Network Analysis: Generates a network to visualize the relationships between sequences, including an exploration of associations with different ethnicities.
+Features
+Comprehensive Analysis: From sequence similarity calculation to network analysis, this script provides a full workflow for understanding relationships between immune sequences.
+Parallel Processing: Efficient calculation of Levenshtein distances using parallel processing to handle large datasets.
+Custom Visualizations: Heatmaps and network graphs to highlight key patterns in immune receptor diversity.
+Prerequisites
+Python 3.x
+Required packages: scipy, pandas, seaborn, matplotlib, networkx, joblib, Levenshtein, numpy
 
-This initiative aims to improve antibody discovery, development, and engineering. 
-Specifically tailored to the unique challenges of immunogenetics and antibody immune receptor repertoire analysis. 
-Our work primarily focuses on building pipelines and bioinformatics platforms to advance the study and practical application of antibodies.
+Example Input File Structure
+The input CSV file (example: CDR3_AA_w_Ethnicity.csv) should contain the following columns:
 
-Overview:
+seqID: A unique identifier for each sequence (e.g., Seq1, Seq2, ...).
+CDR3aa: The CDR3 amino acid sequence for each entry (e.g., CASSPGGTDTQYF).
+Ethnicity: The ethnicity group to which the sequence belongs (e.g., BBR, ASI, LAT, BLA, CAU)
+*modify to fit your needs
 
-This repository currently contains a collection of scripts, tools, workflows, and documentation to support research in:
-•	Immunogenetics Analysis: Building efficient pipelines to analyze large-scale datasets, including next-generation sequencing data, single-cell sequencing, and transcriptomics.
-•	Bioinformatics Platforms: Developing computational tools and integrating different software to analyze immune repertoires, such as V(D)J sequencing to uncover antibody diversity and clonal lineages.
-•	Machine Learning for Antibody Engineering: Leveraging AI models to predict pairing of immunoglobulin heavy and light chains, minimizing the reliance on expensive paired sequencing.
-This repository represents an ongoing effort to establish Hawaii as a hub for advanced antibody research, contributing both locally and globally to immunological discoveries and medical advancements.
+Usage
+To run the analysis:
 
-We are just getting started, and we have big ambitions for the future. Stay tuned for more updates, and feel free to fork, star, or contribute to this initiative!
+Prepare Input File: Ensure your CSV file is structured as shown above.
+Run the Script: Execute the Python script to perform the analysis.
+Output: The script will generate:
+Distance Matrix CSV: Distmatrix_scores.csv
+Top Correlations CSV: pearson_correlations_pvalues.csv, top_200_r_values.csv
+Visualizations: Heatmaps and network plots.
+Output Files
+Distmatrix_scores.csv: A matrix of pairwise distances between sequences.
+pearson_correlations_pvalues.csv: Pearson correlations and p-values for each sequence pair.
+top_200_r_values.csv: Top 200 sequence correlations for further analysis.
+Heatmap and Network Visualizations: Visual representations of sequence relationships and ethnicity associations.
+Key Visualizations
+Clustered Heatmap: Visualizes sequence similarities and clusters.
+Network Graph: Shows relationships between sequences, with nodes colored by ethnicity and edges weighted by correlation significance.
+Notes
+The average linkage method is used for clustering to balance between extremes (e.g., single vs. complete linkage).
+Ethnicity information is used to explore genetic diversity among different populations, highlighting population-specific immune responses.
+
+Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to enhance the features or fix bugs.
