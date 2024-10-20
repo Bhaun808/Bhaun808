@@ -14,9 +14,3 @@ This repository currently contains a collection of scripts, tools, workflows, an
 This repository represents an ongoing effort to establish Hawaii as a hub for advanced antibody research, contributing both locally and globally to immunological discoveries and medical advancements.
 
 We are just getting started, and we have big ambitions for the future. Stay tuned for more updates, and feel free to fork, star, or contribute to this initiative!
-
-- 
-<!---
-Bhaun808/Bhaun808 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
